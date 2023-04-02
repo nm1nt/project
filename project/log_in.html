@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="log_in.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <h1 class="text-[25px] pb-5">Log In</h1>
+          <form class="login-form">
+            <input type="text" placeholder="Username" id="loginUsername" />
+            <!-- <input type="text" placeholder="Email" id="loginEmail"> -->
+            <input type="password" placeholder="Password" id="loginPassword"/>
+            <button onclick="handleLogin()">Log In</button>
+            <p class="message">Don't have an account yet? <a href="/html/sign_up.html">Creat an account</a></p>
+          </form>
+        </div>
+      </div> 
+
+      <!-- <a href="main.html">Home page</a> -->
+    <script src="log_in.js"></script>
+</body>
+</html>
